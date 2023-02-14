@@ -2,50 +2,50 @@
 
 ## Lists
 
-> :computer: Do it yourself! Create a list that holds the strings one, two, three, four and five. Then append the string six to the list and print the string a **index** 2
+> 💻 Do it yourself! Create a list that holds the strings one, two, three, four and five. Then append the string six to the list and print the string a **index** 2
 
 <details>
   <summary>Click here to show solution</summary>
-  
-  ```python3
+
+```python3
   l = ["one", "two", "three", "four", "five"]
   l.append("six")
   print(l[2])
-  ```
+```
 </details>
 
 ### Iterating over a list
 
-> :computer: Create a list with the names of three switches: `switch-1`, `switch-2` and `switch-3`. 
-> 
+> 💻 Create a list with the names of three switches: `switch-1`, `switch-2` and `switch-3`.
+>
 > Iterate over the list and print the name of the switches
 
 <details>
   <summary>Click here to show solution</summary>
-  
-  ```python
+
+```python
   l = ["switch-1", "switch-2", "switch-3"]
   for i in range(0, len(l)):
     print(l[i])
-  ```
+```
 </details>
 
 ### Lists and for-loops
 
-> :computer: You receive a list of switch statuses. The status is a string that is either `active`, `unknown` or `inactive`. 
-> 
+> 💻 You receive a list of switch statuses. The status is a string that is either `active`, `unknown` or `inactive`.
+>
 > Count the number of switches active, unknown or inactive.
-> 
+>
 > You can use the boilerplate code below:
-> 
+>
 > ```python
-> 
+>
 > switch_statuses = ["active", "active", "active", "unknown", "inactive"]
-> 
+>
 > number_active = 0
 > number_unknown = 0
 > number_inactive = 0
-> 
+>
 > # Add your code here!
 > print("Number of active switches: " + str(number_active))
 > print("Number of unknown switches: " + str(number_unknown))
@@ -54,8 +54,8 @@
 
 <details>
   <summary>Click here to show solution</summary>
-  
-  ```python
+
+```python
   
   switch_statuses = ["active", "active", "active", "unknown", "inactive"]
   
@@ -75,17 +75,17 @@
   print("Number of active switches: " + str(number_active))
   print("Number of unknown switches: " + str(number_unknown))
   print("Number of inactive switches: " + str(number_inactive))
-  ```
+```
 </details>
 
 ## Dictionaries
 
-> :computer: Do it for yourself! Declare a `user` dictionary with the keys `first_name`, `last_name` and `age` and then print them all out!
+> 💻 Do it for yourself! Declare a `user` dictionary with the keys `first_name`, `last_name` and `age` and then print them all out!
 
 <details>
   <summary>Click here to show solution</summary>
-  
-  ```python
+
+```python
   
   user = {}
 
@@ -96,16 +96,16 @@
   print(user["first_name"])
   print(user["last_name"])
   print(user["age"])
-  ```
+```
 
 </details>
 
 ### Iterating over dictionaries
 
-> :computer: Rewrite the code from the last exercise, the one printing out all the properties of the user dictionary, using the for-each loop and the `keys()` function.
-> 
-> You can use this boilerplate: 
-> 
+> 💻 Rewrite the code from the last exercise, the one printing out all the properties of the user dictionary, using the for-each loop and the `keys()` function.
+>
+> You can use this boilerplate:
+>
 > ```python
 > user = {}
 >
@@ -116,8 +116,8 @@
 
 <details>
   <summary>Click here to show solution</summary>
-  
-  ```python
+
+```python
   
   user = {}
 
@@ -127,7 +127,7 @@
   
   for key in user.keys():
     print(user[key])
-  ```
+```
 
 </details>
 
@@ -136,21 +136,23 @@
 ## For loops
 
 ### #1
-> :computer: Use a for loop to print the text "Good morning!" ten times.
+
+> 💻 Use a for loop to print the text "Good morning!" ten times.
 
 <details>
   <summary>Click here to show solution</summary>
-  
-  ```python
+
+```python
   
   for a in range(0, 10):
     print("Good morning!")
-  ```
+```
 </details>
 
 ### #2
-> :computer: Modify the code so that it prints 
-> 
+
+> 💻 Modify the code so that it prints
+>
 > ```
 > This is the 1. iteration
 > This is the 2. iteration
@@ -163,35 +165,37 @@
 
 <details>
   <summary>Click here to show solution</summary>
-  
-  ```python
+
+```python
   
   for a in range(1, 6):
     print("This is the " + str(a) + ". iteration")
-  ```
+```
 </details>
 
 ### #3
-> :computer: Lets use this new knowledge to print out all ip addresses that are in a subnet.
-> 
+
+> 💻 Lets use this new knowledge to print out all ip addresses that are in a subnet.
+>
 > Given a class C Network of `192.168.0.0/24` and a netmask of `255.255.255.0` print out all addresses that are available (including the network and broadcast address)
 >
 > Remember: The variable of your for loop will be an integer. You will need to cast accordingly!
 
 <details>
   <summary>Click here to show solution</summary>
-  
-  ```python
+
+```python
   
   for host_part in range(0, 256):
     ip_address = "192.168.0." + str(host_part)
     print(ip_address)
-  ```
+```
 </details>
 
 ### #4
-> :computer: We can use nested for loops to print out multiplication tables. Modify the code below
-> 
+
+> 💻 We can use nested for loops to print out multiplication tables. Modify the code below
+>
 > ```python
 >  for num in range(1, 11):
 >       print("Multiplication table for " + str(num))
@@ -203,20 +207,20 @@
 
 <details>
   <summary>Click here to show solution</summary>
+
+```python
   
-  ```python
-    
   for num in range(1, 11):
         print("Multiplication table for " + str(num))
         for multiplier in range(1, 11):
            res = num ∗ multiplier
            print(str(num) + ” x ” + str(multiplier) + ” = ” + str(res))
-  ```
+```
 </details>
 
 
 
 <div align="right">
-   
-   [Prev](python_one_tasks.md) - [Next](python_three_exercise/Readme.md)
+
+   [Prev](python_one_tasks.md) - [Next](python_two_json.md)
 </div>

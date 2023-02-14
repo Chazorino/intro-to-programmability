@@ -28,7 +28,7 @@ interface()
 ```
 
 Above code defines a function for each of the functionalities we want to provide and then calls the 
-`interface()` function for the user to interact with our application. 
+`interface()` function for the user to interact with our application. Create a new file `main.py` which we will use to implement all five functions.
 
 Next, let's write the user interface.
 

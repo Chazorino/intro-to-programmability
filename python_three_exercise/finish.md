@@ -2,9 +2,24 @@
 
 Congratulations! You wrote your first little application in python.
 
-To test your python script append the main block at the end of the `main.py` file
+To repeditively test your python script, remove the ```interface()```line and append the main block at the end of the `main.py` file. Your file should have the following structure:
 
 ```python3
+def createItem():
+    ## code block omitted
+
+def listItems():
+    ## code block omitted
+
+def markItemDone():
+    ## code block omitted
+
+def interface():
+    ## code block omitted
+
+# remove this line
+# interface() 
+
 def main():
     while True:
         interface()

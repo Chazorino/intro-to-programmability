@@ -1,4 +1,6 @@
-# Parsing JSON with Python
+# Nested Data Structures
+
+### JSON
 
 ### #1
 
@@ -36,6 +38,7 @@ data = json.load(file)
 print(data)
 
 ```
+
 </details>
 
 ### #2
@@ -58,11 +61,11 @@ ip_address = data["ietf-interfaces:interface"]["ietf-ip:ipv4"]["address"][0]["ip
 print(ip_address)
 
 ```
+
 </details>
 
 <div align="right">
 
-   [Prev](python_two_tasks.md) - [Next](python_three_exercise/Readme.md)
+   [Prev](python_two_tasks.md) - [Next](python_three_exercise/Readme.md)[Next](python_three_exercise/Readme.md)
+
 </div>
-
-

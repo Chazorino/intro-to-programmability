@@ -6,5 +6,5 @@ In the final part of this three-parted training we will use the knowledge acquir
 
 <div align="right">
    
-   [Prev](python_two_tasks.md) - [Next](project.md)
+   [Prev](python_two_json.md) - [Next](project.md)
 </div>

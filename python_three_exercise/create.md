@@ -19,8 +19,7 @@ import json
 import random
 ```
 
-We will also need to create the `todos/` folder. To do so, in repl.it, click on the little *Add folder* icon and create a new 
-folder called `todos`. Your directory structure should now look like this:
+We will also need to create the `todos/` folder. Your directory structure should now look like this:
 
 ```
 main.py

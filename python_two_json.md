@@ -26,7 +26,7 @@
 <details>
   <summary>Click here to show solution</summary>
 
-```python
+```python3
 import json
 
 file = open('interface.json')
@@ -40,6 +40,7 @@ print(data)
 ```
 
 ```
+</details>
 
 ### #2
 
@@ -48,7 +49,7 @@ print(data)
 <details>
   <summary>Click here to show solution</summary>
 
-```python
+```python3
 import json
 
 file = open('interface.json')
@@ -61,8 +62,9 @@ ip_address = data["ietf-interfaces:interface"]["ietf-ip:ipv4"]["address"][0]["ip
 print(ip_address)
 
 ```
+</details>
 
-
+<div>
 [Prev](python_two_tasks.md) - [Next](python_three_exercise/Readme.md)
-
 </div>
+

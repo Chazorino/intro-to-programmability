@@ -1,6 +1,6 @@
 # The Structure
 
-Lets start by writing out the structure of our program. Based on our requirements we will 
+Lets start by writing out the structure of our program. Based on our requirements we will
 have four functions:
 
 * `createItem()` to create a new todo item
@@ -27,12 +27,13 @@ def interface():
 interface()
 ```
 
-Above code defines a function for each of the functionalities we want to provide and then calls the 
-`interface()` function for the user to interact with our application. Create a new file `main.py` which we will use to implement all five functions.
+Above code defines a function for each of the functionalities we want to provide and then calls the
+`interface()` function for the user to interact with our application. Create a new file `main.py` which we will use to implement all these four functions.
 
 Next, let's write the user interface.
 
 <div align="right">
-   
+
    [Prev](project.md) - [Next](interface.md)
+
 </div>

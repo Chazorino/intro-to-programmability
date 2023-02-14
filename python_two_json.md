@@ -36,10 +36,6 @@ data = json.load(file)
 print(data)
 
 ```
-
-```
-
-```
 </details>
 
 ### #2
@@ -64,7 +60,9 @@ print(ip_address)
 ```
 </details>
 
-<div>
-[Prev](python_two_tasks.md) - [Next](python_three_exercise/Readme.md)
+<div align="right">
+
+   [Prev](python_two_tasks.md) - [Next](python_three_exercise/Readme.md)
 </div>
+
 

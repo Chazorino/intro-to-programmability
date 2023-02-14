@@ -1,7 +1,7 @@
 # Parsing JSON with Python
 
-> ### #1
->
+### #1
+
 > 💻 Use this JSON data structure and save it as interface.json. Then, write a script that imports the json structure and converts the text-based JSON data into native Python.
 
 > ```python3
@@ -37,6 +37,8 @@ print(data)
 
 ```
 
+
+
 ### #2
 
 💻 From the inported data structure write a code line that can access the 'ip' address.
@@ -51,6 +53,7 @@ file = open('interface.json')
 
 data = json.load(file)
 print(data)
+
 
 ip_address = data["ietf-interfaces:interface"]["ietf-ip:ipv4"]["address"][0]["ip"]
 print(ip_address)

@@ -2,79 +2,15 @@
 
 ## Lists
 
-> 💻 Do it yourself! Create a list that holds the strings one, two, three, four and five. Then append the string six to the list and print the string a **index** 2
+> 💻 Create a list that holds the strings one, two, three, four and five. Then append the string six to the list and print the string a **index** 2
 
 <details>
   <summary>Click here to show solution</summary>
 
-```python3
+```python
   l = ["one", "two", "three", "four", "five"]
   l.append("six")
   print(l[2])
-```
-</details>
-
-### Iterating over a list
-
-> 💻 Create a list with the names of three switches: `switch-1`, `switch-2` and `switch-3`.
->
-> Iterate over the list and print the name of the switches
-
-<details>
-  <summary>Click here to show solution</summary>
-
-```python
-  l = ["switch-1", "switch-2", "switch-3"]
-  for i in range(0, len(l)):
-    print(l[i])
-```
-</details>
-
-### Lists and for-loops
-
-> 💻 You receive a list of switch statuses. The status is a string that is either `active`, `unknown` or `inactive`.
->
-> Count the number of switches active, unknown or inactive.
->
-> You can use the boilerplate code below:
->
-> ```python
->
-> switch_statuses = ["active", "active", "active", "unknown", "inactive"]
->
-> number_active = 0
-> number_unknown = 0
-> number_inactive = 0
->
-> # Add your code here!
-> print("Number of active switches: " + str(number_active))
-> print("Number of unknown switches: " + str(number_unknown))
-> print("Number of inactive switches: " + str(number_inactive))
-> ```
-
-<details>
-  <summary>Click here to show solution</summary>
-
-```python
-  
-  switch_statuses = ["active", "active", "active", "unknown", "inactive"]
-  
-  number_active = 0
-  number_unknown = 0
-  number_inactive = 0
-
-  # Add your code here!
-  for status in switch_statuses:
-    if status == "active":
-        number_active += 1
-    elif status == "inactive":
-        number_inactive += 1
-    elif status == "unknown":
-        number_unknown += 1
-
-  print("Number of active switches: " + str(number_active))
-  print("Number of unknown switches: " + str(number_unknown))
-  print("Number of inactive switches: " + str(number_inactive))
 ```
 </details>
 
@@ -86,7 +22,6 @@
   <summary>Click here to show solution</summary>
 
 ```python
-  
   user = {}
 
   user["first_name"] = "Marcel"
@@ -100,40 +35,7 @@
 
 </details>
 
-### Iterating over dictionaries
-
-> 💻 Rewrite the code from the last exercise, the one printing out all the properties of the user dictionary, using the for-each loop and the `keys()` function.
->
-> You can use this boilerplate:
->
-> ```python
-> user = {}
->
-> user["first_name"] = "Frederic"
-> user["last_name"] = "Wagner"
-> user["age"] = 28
-> ```
-
-<details>
-  <summary>Click here to show solution</summary>
-
-```python
-  
-  user = {}
-
-  user["first_name"] = "Frederic"
-  user["last_name"] = "Wagner"
-  user["age"] = 28
-  
-  for key in user.keys():
-    print(user[key])
-```
-
-</details>
-
-# Loops and Control Structures
-
-## For loops
+# Loops 
 
 ### #1
 
@@ -217,6 +119,103 @@
            print(str(num) + ” x ” + str(multiplier) + ” = ” + str(res))
 ```
 </details>
+
+# Data Structures and Loops
+
+## Iterating over a list
+
+> 💻 Create a list with the names of three switches: `switch-1`, `switch-2` and `switch-3`.
+>
+> Iterate over the list and print the name of the switches
+
+<details>
+  <summary>Click here to show solution</summary>
+
+```python
+  l = ["switch-1", "switch-2", "switch-3"]
+  for i in range(0, len(l)):
+    print(l[i])
+```
+</details>
+
+## Lists and for-loops
+
+> 💻 You receive a list of switch statuses. The status is a string that is either `active`, `unknown` or `inactive`.
+>
+> Count the number of switches active, unknown or inactive.
+>
+> You can use the boilerplate code below:
+>
+> ```python‚
+> switch_statuses = ["active", "active", "active", "unknown", "inactive"]
+>
+> number_active = 0
+> number_unknown = 0
+> number_inactive = 0
+>
+> # Add your code here!
+> print("Number of active switches: " + str(number_active))
+> print("Number of unknown switches: " + str(number_unknown))
+> print("Number of inactive switches: " + str(number_inactive))
+> ```
+
+<details>
+  <summary>Click here to show solution</summary>
+
+```python
+  
+  switch_statuses = ["active", "active", "active", "unknown", "inactive"]
+  
+  number_active = 0
+  number_unknown = 0
+  number_inactive = 0
+
+  # Add your code here!
+  for status in switch_statuses:
+    if status == "active":
+        number_active += 1
+    elif status == "inactive":
+        number_inactive += 1
+    elif status == "unknown":
+        number_unknown += 1
+
+  print("Number of active switches: " + str(number_active))
+  print("Number of unknown switches: " + str(number_unknown))
+  print("Number of inactive switches: " + str(number_inactive))
+```
+</details>
+
+## Iterating over dictionaries
+
+> 💻 Rewrite the code from the last exercise, the one printing out all the properties of the user dictionary, using the for-each loop and the `keys()` function.
+>
+> You can use this boilerplate:
+>
+> ```python
+> user = {}
+>
+> user["first_name"] = "Frederic"
+> user["last_name"] = "Wagner"
+> user["age"] = 28
+> ```
+
+<details>
+  <summary>Click here to show solution</summary>
+
+```python
+  
+  user = {}
+
+  user["first_name"] = "Frederic"
+  user["last_name"] = "Wagner"
+  user["age"] = 28
+  
+  for key in user.keys():
+    print(user[key])
+```
+
+</details>
+
 
 
 

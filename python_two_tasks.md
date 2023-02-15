@@ -163,7 +163,6 @@
   <summary>Click here to show solution</summary>
 
 ```python
-  
   switch_statuses = ["active", "active", "active", "unknown", "inactive"]
   
   number_active = 0

@@ -1,6 +1,6 @@
 # Variables and Data types
 ### #1
-> :computer: Modify the script below so that it included your name. You will need to specify a variable called `your_name` and then assign your name to it as a `string`
+> :computer: Modify the script below so that it includes your name. You will need to specify a variable called `your_name` and then assign your name to it as a `string`
 > 
 > ```python3
 > # You will need to add code here
@@ -29,7 +29,6 @@
   <summary>Click here to show solution</summary>
   
   ```python
-  
   a = 10
   b = 2
   c = a * b
@@ -38,53 +37,41 @@
   ```
 </details>
 
-# Conditionals
+# Getting inputs from the user
 
-> :computer: The **FizzBuzz** test is a famous question in entry-level coding interviews. The ask is simple:
-> 
-> Write a program that prints the numbers from 1 to (including) 20
-> 
-> * for multiples of three print **Fizz** instead of the number
-> * for multiples of five print **Buzz** instead of the number
-> * for multiples of both five and three print **FizzBuzz** instead of the number
-> * In all other cases print the number
-> 
-> Three tips: 
-> 
-> 1) To check if a number is a multiple of another number you can use this conditional:
-> 
-> ```python
-> 
-> a = 10
-> if a%5 == 0:
->   print("This number is a multiple of 5")
-> ```
->
-> 2) You can chain multiple conditions with the `and` keyword
-> 
-> ```python
-> 
-> age = 17
-> if age > 10 and age < 18:
->   print("The person is a teenager")
-> ```
-> 
-> 3) Remember for loops? They might come in handy in this exercise.
+Sometimes we want to get input from the user. In python this can be achieved using the build-in `input()` function. 
+
+```python
+name = # Add your code here
+print("My name is " + name)
+```
+> :computer: Modify the code to get your name as an input from the user which will then be printed out
 
 <details>
   <summary>Click here to show solution</summary>
   
   ```python
+  name = input("What is your name? ")
+  print("My name is " + name)
+  ```
+</details>
+
+# Conditionals
+
+> :computer: Write a script that takes a number from the user and depending on the number returns if the number is less, equal or greater than zero. Be sure to convert the entered number to an integer using the build-in `int()` function
+
+
+<details>
+  <summary>Click here to show solution</summary>
   
-  for num in range(1, 21):
-    if num % 3 == 0 and num % 5 == 0:
-        print("FizzBuzz")
-    elif num % 3 == 0:
-        print("Fizz")
-    elif num % 5 == 0:
-        print("Buzz")
-    else:
-        print(str(num))
+  ```python
+  number = int(input("Tell me a number! "))
+  if number < 0:
+    print("Number is less than zero")
+  elif number == 0:
+    print("Number is exactly zero")
+  elif number > 0:
+    print("Number is greater than zero")
   ```
 </details>
 
@@ -92,8 +79,8 @@
 
 ## Declaring functions
 
-> :computer: Do it for yourself! Declare a function called `my_first_function` and have it print out the text `I am Marcel and this is my first function`. 
-> Substitute Marcel for your own name.
+> :computer: Do it for yourself! Declare a function called `my_first_function` and have it print out the text `I am Anna and this is my first function`. 
+> Substitute Anna for your own name.
 
 <details>
   <summary>Click here to show solution</summary>
@@ -101,7 +88,7 @@
   ```python
   
   def my_first_function():
-    print("I am Marcel and this is my first function")
+    print("I am Anna and this is my first function")
   ```
 </details>
 
@@ -127,7 +114,6 @@
   <summary>Click here to show solution</summary>
   
   ```python
-  
   def test_switch(name, status):
     if status == "active":
         return "The switch " + str(name) + " is online"

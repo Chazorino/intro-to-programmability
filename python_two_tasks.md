@@ -80,7 +80,7 @@
 
 ## Dictionaries
 
-> 💻 Do it for yourself! Declare a `user` dictionary with the keys `first_name`, `last_name` and `age` and then print them all out!
+> 💻 Declare a `user` dictionary with the keys `first_name`, `last_name` and `age` and then print them all out!
 
 <details>
   <summary>Click here to show solution</summary>
@@ -109,9 +109,9 @@
 > ```python
 > user = {}
 >
-> user["first_name"] = "Marcel"
-> user["last_name"] = "Neidinger"
-> user["age"] = 24
+> user["first_name"] = "Frederic"
+> user["last_name"] = "Wagner"
+> user["age"] = 28
 > ```
 
 <details>
@@ -121,9 +121,9 @@
   
   user = {}
 
-  user["first_name"] = "Marcel"
-  user["last_name"] = "Neidinger"
-  user["age"] = 24
+  user["first_name"] = "Frederic"
+  user["last_name"] = "Wagner"
+  user["age"] = 28
   
   for key in user.keys():
     print(user[key])

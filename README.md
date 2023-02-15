@@ -1,12 +1,8 @@
 # Introduction to Programmability with python
 
-Welcome to the "Introduction to Programmability with python" series. In this repository you will find a written version of the content covered during our 4 technical fundamentals sessions.
+Welcome to the "Introduction to Programmability with python" series. In this repository you will find th tasks related to the content we covered in the session.
 
-This content is intended for you to follow along and try out. Programming is learned by doing so each section includes tips and tricks, common pitfalls and exercises with solutions for you to solve. 
-
-> :warning: This is a common pitfall or warning.
-
-> :wrench: Here you will find some background information.
+This content is intended for you to follow along and try out. Programming is learned by doing so each section includes exercises with solutions for you to solve. 
 
 > :computer: This is an exercises. They might contain sample code that you need to extend upon like this:
 > 
@@ -25,23 +21,17 @@ For these exercises you will find solutions. You can view the solution by clicki
   ```
 </details>
 
-> :rocket: This section lists additional content you can read or watch on the topic
-> presented. 
-
-## Sessions
-
-### Introduction to Python
+## Introduction to Python
 Python is one of the most popular programming languages of our time and the powerhouse behind most of Cisco’s API efforts. If there is a Cisco API chances are high that there will be a software development kit for that API in python. 
 
-In part one of this three-parted training we will start from scratch and get familiar with the basic concepts of python like variables, loops and functions.
-[Go to session](sessions/python_one/Readme.md)
+In part one of this training we will start from scratch and get familiar with the basic concepts of python like variables, conditionals and functions.
+[Go to exercises](python_one_tasks.md)
 
-In part two of this three-parted training we will build on the basics from the last session to explore some more advanced data structures like dictionaries and sets. We will also get acquainted with some of the useful modules that come included with the python standard library. [Go to session](sessions/python_two/Readme.md)
+In part two of this training we will build on the basics from the last session to explore some more advanced data structures like dictionaries and sets. We will also get acquainted with loops and some of the useful modules that come included with the python standard library. [Go to exercises](python_two_tasks.md)
 
-In the final part of this three-parted training we will use the knowledge acquired over the past sessions to build a small python project from start to finish [Go to  session](sessions/python_three/Readme.md)
+In addition to that we will have a look at how to deal with JSON files with python as well. [Go to exercises](python_two_json.md)
 
-### REST API Fundamentals
-REST (Representational state transfer) is the most common API framework based on HTTP(S) and an essential part of Programmability. In this session we will provide you with the technical background on REST API as well as a practical introduction on how to consume and use REST APIs with python. [Go to session](sessions/rest_fundamentals/Readme.md)
+In the final part of this training we will use the knowledge acquired to build a small python project from start to finish [Go to  exercises](sessions/python_three/Readme.md)
 
 <div align="right">
    

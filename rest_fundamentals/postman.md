@@ -6,13 +6,13 @@ Starting up Postman we first need to create a *collection*. Collections combine 
 
 By clicking "New" and then "Collection" we can get a new collection. 
 
-![Postman Interface](../../res/postman_interface.png)
+![Postman Interface](../res/postman_interface.png)
 
 Next, create a new *request* in our newly created collection by going to "New" and then "Request". You will be prompted for a name, a description and to which collection you would like to add this request. 
 
 With that done we have the request editor opened and can start making API requests using Postman. 
 
-![Postman Request Editor](../../res/postman_editor.png)
+![Postman Request Editor](../res/postman_editor.png)
 
 (1) is the HTTP method we want to use. Clicking on the method will reveal a drop down with all available options. We will leave it at `GET` for the time being. 
 
@@ -37,11 +37,11 @@ For the deck of cards API the *query parameter* to specify the number of decks i
 
 Our final request thus looks like this: 
 
-![First request with Postman](../../res/first_request.png)
+![First request with Postman](../res/first_request.png)
 
 Clicking "Send" will send this request and return a response. 
 
-![First response with Postman](../../res/first_response.png)
+![First response with Postman](../res/first_response.png)
 
 (1) Shows you the status line of our response. As you can see the API returned a `200 OK` meaning that the request was responded to successfully. 
 

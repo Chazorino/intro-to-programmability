@@ -51,7 +51,7 @@ Accept-Charset: utf-8
 And here is one for a request with a body:
 
 ```
-POST http://www.cisc.com/login HTTP/1.1
+POST http://www.cisco.com/login HTTP/1.1
 User-Agent: Mozilla/5.0 (X11; Linux i686; rv:81.0) Gecko/20100101
 Accept-Charset: utf-8
 Content-Type: application/x-www-form-urlencoded
@@ -144,7 +144,7 @@ Content-Type: application/json
    [...] # More lines omitted for brevity
 }
 ```
-![sketch of a http request and response](../../res/rest_schematics.png)
+![sketch of a http request and response](../res/rest_schematics.png)
 
 ### HTTP Methods and their associated operations
 

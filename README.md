@@ -31,7 +31,7 @@ In part two of this training we will build on the basics from the last session t
 
 In addition to that we will have a look at how to deal with JSON files with python as well. [Go to exercises](python_two_json.md)
 
-In the final part of this training we will use the knowledge acquired to build a small python project from start to finish [Go to  exercises](sessions/python_three/Readme.md)
+In the final part of this training we will use the knowledge acquired to build a small python project from start to finish [Go to  exercises](sessions/python_three/Readme.md) to which you can always come back to practice.
 
 ## REST API Fundamentals
 REST (Representational state transfer) is the most common API framework based on HTTP(S) and an essential part of Programmability. In this session we will provide you with the technical background on REST API as well as a practical introduction on how to consume and use REST APIs with python. [Go to session](rest_fundamentals/Readme.md)

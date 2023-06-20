@@ -64,8 +64,10 @@ print(ip_address)
 
 </details>
 
+## From here you can continue to practice your Python skills by taking on the [Python Exercise](python_three_exercise/Readme.md) or you can move on to REST API Fundamentals by clicking [Next](rest_fundamentals/Readme.md)
+
 <div align="right">
 
-   [Prev](python_two_tasks.md) - [Next](python_three_exercise/Readme.md)
+   [Prev](python_two_tasks.md) - [Next](rest_fundamentals/Readme.md)
 
 </div>

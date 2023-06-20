@@ -2,7 +2,7 @@
 
 If you come from a different programming language you might be terrified about having to do web requests with it. In the past it had been pretty cumbersome to do web requests from a programming language. Fundamentally this is still true but the python community has done a great job in abstracting this complexity away into packages. 
 
-The package we are going to use today is called `requests`. In your online editor you can go ahead and just import it into your script like we have seen in the previous sessions. 
+The package we are going to use today is called `requests`. In your editor you can go ahead and just import it into your script like we have seen in the previous sessions. 
 
 ```python
 

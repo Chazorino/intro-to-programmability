@@ -52,7 +52,7 @@ You need to tell git who you are before you can commit any changes to a reposito
 
 
 ### Cloning a Repository
-When you want to work with someone else's code, you first have to get it on your machine. We do this with the git clone command. Please clone this repository with the command _git clone_ https://github.com/Chazorino/intro-to-programmability.git
+When you want to work with someone else's code, you first have to get it on your machine. We do this with the git clone command. 
 
 Note: Please don't do it more than once. Having multiple copies of the code samples on your computer can cause confusion as to which one you are working with.
 
@@ -91,6 +91,16 @@ Solution: You can "checkout" the last version of the file to overwrite the chan
 
 Solution: You can "checkout" the last version of the file to overwrite the changes you have made and restore the file to its last committed version.
 
+
+## Excercise
+
+Please clone this repository with the command 
+
+```
+git clone https://github.com/Chazorino/intro-to-programmability.git
+```
+
+Feel free to check the status of the repository with the commands we have discussed in this section, checkout a branch or commit any changes you made.
 
 <div align="right">
    

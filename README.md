@@ -23,7 +23,7 @@ For these exercises you will find solutions. You can view the solution by clicki
 
 ## Introduction to Git
 Initially you will learn Git basics, clone this repository for a local copy of the Hands-On Labs and start working with code files collaboratively.
-[Go to exercises](intro_to_git.md)
+[Go to section](intro_to_git.md)
 
 ## Introduction to Python
 Python is one of the most popular programming languages of our time and the powerhouse behind most of Cisco’s API efforts. If there is a Cisco API chances are high that there will be a software development kit for that API in python. 
@@ -38,7 +38,7 @@ In addition to that we will have a look at how to deal with JSON files with pyth
 In the final part of this training we will use the knowledge acquired to build a small python project from start to finish [Go to  exercises](sessions/python_three/Readme.md) to which you can always come back to practice.
 
 ## REST API Fundamentals
-REST (Representational state transfer) is the most common API framework based on HTTP(S) and an essential part of Programmability. In this session we will provide you with the technical background on REST API as well as a practical introduction on how to consume and use REST APIs with python. [Go to session](rest_fundamentals/Readme.md)
+REST (Representational state transfer) is the most common API framework based on HTTP(S) and an essential part of Programmability. In this session we will provide you with the technical background on REST API as well as a practical introduction on how to consume and use REST APIs with python. [Go to section](rest_fundamentals/Readme.md)
 
 <div align="right">
    

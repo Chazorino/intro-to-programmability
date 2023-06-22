@@ -44,6 +44,3 @@ REST (Representational state transfer) is the most common API framework based on
    
    Prev - [Next](intro_to_git.md)
 </div>
-
-
-# Eschborn 22.06

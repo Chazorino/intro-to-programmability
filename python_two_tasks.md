@@ -24,9 +24,9 @@
 ```python
   user = {}
 
-  user["first_name"] = "Marcel"
-  user["last_name"] = "Neidinger"
-  user["age"] = 24
+  user["first_name"] = "John"
+  user["last_name"] = "Doe"
+  user["age"] = 42
   
   print(user["first_name"])
   print(user["last_name"])
@@ -195,7 +195,7 @@
 >
 > user["first_name"] = "Frederic"
 > user["last_name"] = "Wagner"
-> user["age"] = 28
+> user["age"] = 29
 > ```
 
 <details>
@@ -207,7 +207,7 @@
 
   user["first_name"] = "Frederic"
   user["last_name"] = "Wagner"
-  user["age"] = 28
+  user["age"] = 29
   
   for key in user.keys():
     print(user[key])
@@ -215,8 +215,13 @@
 
 </details>
 
+## Variable Scope
 
+To learn more about the scope of variables check out the [python_variable_scope](python_variable_scope.py) script and run it in your preferred editor to see the output of the variables.
 
+## Script Structure and Excecution
+
+To learn more about the structure and execution flow of a python script, check out the [python_script_structure_execution](python_script_structure_execution.py) script and run it in your preferred editor.
 
 <div align="right">
 

@@ -215,6 +215,8 @@
 
 </details>
 
+# Python Scripts
+
 ## Variable Scope
 
 To learn more about the scope of variables check out the [python_variable_scope](python_variable_scope.py) script and run it in your preferred editor to see the output of the variables.

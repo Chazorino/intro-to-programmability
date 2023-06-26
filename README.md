@@ -31,7 +31,7 @@ Python is one of the most popular programming languages of our time and the powe
 In part one of this training we will start from scratch and get familiar with the basic concepts of python like variables, conditionals and functions.
 [Go to exercises](python_one_tasks.md)
 
-In part two of this training we will build on the basics from the last session to explore some more advanced data structures like dictionaries and sets. We will also get acquainted with loops and some of the useful modules that come included with the python standard library. [Go to exercises](python_two_tasks.md)
+In part two of this training we will build on the basics from the last session to explore some more advanced data structures like dictionaries and sets. We will also get acquainted with loops and some of the useful modules that come included with the python standard library. Afterwards we will learn more about the scope of variables and the structure and execution flow of a python script. [Go to exercises](python_two_tasks.md)
 
 In addition to that we will have a look at how to deal with JSON files with python as well. [Go to exercises](python_two_json.md)
 
